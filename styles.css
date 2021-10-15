@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #ECEEF1;
+}
+input {
+    text-indent: 8px;
+}
+.whole-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.int {
+    font-family: Gemunu Libre, 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    padding: .5rem;
+    color: #9f9e9e;
+    font-weight: bold;
+}
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+.logo-all {
+    width: 20px;
+}
+.logo-p {
+    display: flex;
+    gap: 3px;
+}
+.banner {
+    background: #fff;
+    border: 1.8px solid lightgray;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 23vw 0;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    gap: 1.5rem;
+    width: 19.5rem;
+}
+.ins-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    gap: 1.5rem;
+}
+.banner h1 {
+    padding: 1.5rem 0 0;
+    font-weight: lighter;
+    text-align: center;
+}
+.banner input {
+    height: 1.7rem;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+.text-top {
+    text-align: center;
+}
+.email-input1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    gap: 8px;
+}
+
+.phone-num1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.password-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.create-acc {
+    border: 1px transparent;
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #0077c5;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+    box-shadow: 0 0.8px black;
+}
+.create-acc:active {
+    color: lightgray;
+    box-shadow: none;
+}
+.by-select {
+    font-style: italic;
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: .8rem 0;
+}
+.bottom-banner {
+    background: #9f9e9e;
+    text-align: center;
+}
+@media screen and (max-width: 750px) {
+    .banner {
+        width: unset;
+    }
+}
