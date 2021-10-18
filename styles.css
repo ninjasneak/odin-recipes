@@ -121,8 +121,35 @@ input {
     padding: .8rem 0;
 }
 .bottom-banner {
-    background: #9f9e9e;
+    background: #e6e6e6;
     text-align: center;
+    padding: 1rem 1.5rem;
+    font-size: 12px;
+}
+.bottom-area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    padding: 1rem 2rem;
+}
+.lps {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.bottom-webpage-footer {
+    background: #fff;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.bottom-webpage-footer a {
+    padding-left: 1.5rem;
+    text-decoration: none;
+    color: rgb(81, 0, 255);
 }
 @media screen and (max-width: 750px) {
     .banner {
